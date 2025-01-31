@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89b4e1bb5ed4aa45ba1d9c32d2bbb9e, type: 3}
+  m_Name: MergeableConfig
+  m_EditorClassIdentifier: 
+  mergeableBallConfigList:
+  - MergeableId: 1
+    MergeablePrefab: {fileID: 7237336577313259265, guid: 31e9c7aedc6aa9c45bd60353e4d798ff, type: 3}
+  - MergeableId: 2
+    MergeablePrefab: {fileID: 6676910465818849582, guid: 5439b5d030b2d974fa5e88fdb8362305, type: 3}
+  - MergeableId: 3
+    MergeablePrefab: {fileID: 2811511273489314208, guid: c9d7cfa269df6a645b6ac223d23e8506, type: 3}
+  - MergeableId: 4
+    MergeablePrefab: {fileID: 458699614445417267, guid: b42e0881f58a803459d87c9b226e22b7, type: 3}
+  - MergeableId: 5
+    MergeablePrefab: {fileID: 3062034578639868709, guid: e2676a756d61bfa45ab30fffbae05887, type: 3}
+  - MergeableId: 6
+    MergeablePrefab: {fileID: 1348637409920728199, guid: e65db82c27570934e8c0c0851a123627, type: 3}
