@@ -27,3 +27,5 @@ MonoBehaviour:
     MergeablePrefab: {fileID: 1348637409920728199, guid: e65db82c27570934e8c0c0851a123627, type: 3}
   - MergeableId: 7
     MergeablePrefab: {fileID: 8582196294402573312, guid: 1a25f596d18d5554ea478e9856daca76, type: 3}
+  - MergeableId: 8
+    MergeablePrefab: {fileID: 4830124200854616542, guid: c0f6689cd4e3ba34ebbb98e27c4da5ea, type: 3}

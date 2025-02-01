@@ -226,6 +226,7 @@ MonoBehaviour:
   mergeId: 0
   mergeablesConfig: {fileID: 11400000, guid: ee9f6ce70a4fe6f4bb51cf4913668773, type: 2}
   rb2D: {fileID: 818020118892835139}
+  col2D: {fileID: 663507392991409027}
   popAudioClips:
   - {fileID: 8300000, guid: d7aad5ea0ab987f448ea9806f7a25fb4, type: 3}
   - {fileID: 8300000, guid: 2ac237b4cb5e57b4385bc57093e41fd4, type: 3}
