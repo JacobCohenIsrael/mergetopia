@@ -213,7 +213,7 @@ MonoBehaviour:
   pointer: {fileID: 587081135}
   screenHeightPercent: 0.8
   xMinMax: 2.8
-  mergeableConfig: {fileID: 11400000, guid: ee9f6ce70a4fe6f4bb51cf4913668773, type: 2}
+  mergeableHeap: {fileID: 1790064202}
   mainCamera: {fileID: 519420031}
 --- !u!4 &276835451
 Transform:
@@ -583,6 +583,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3844754338308209417, guid: e80d67e6439308949a4db328c2328605, type: 3}
   m_PrefabInstance: {fileID: 1657157713}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1790064201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790064203}
+  - component: {fileID: 1790064202}
+  m_Layer: 0
+  m_Name: MergeableHeap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790064202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790064201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1911372ebb25d4fa9bb39deb0fd17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mergeablesConfig: {fileID: 11400000, guid: ee9f6ce70a4fe6f4bb51cf4913668773, type: 2}
+  maxMergeableIndex: 4
+--- !u!4 &1790064203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790064201}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2056560693 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3844754338308209417, guid: e80d67e6439308949a4db328c2328605, type: 3}
@@ -652,3 +698,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 765201740}
   - {fileID: 276835451}
+  - {fileID: 1790064203}

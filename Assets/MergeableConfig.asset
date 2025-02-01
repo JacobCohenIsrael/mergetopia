@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a89b4e1bb5ed4aa45ba1d9c32d2bbb9e, type: 3}
   m_Name: MergeableConfig
   m_EditorClassIdentifier: 
-  mergeableBallConfigList:
+  mergeableConfigList:
   - MergeableId: 1
     MergeablePrefab: {fileID: 7237336577313259265, guid: 31e9c7aedc6aa9c45bd60353e4d798ff, type: 3}
   - MergeableId: 2
@@ -25,3 +25,5 @@ MonoBehaviour:
     MergeablePrefab: {fileID: 3062034578639868709, guid: e2676a756d61bfa45ab30fffbae05887, type: 3}
   - MergeableId: 6
     MergeablePrefab: {fileID: 1348637409920728199, guid: e65db82c27570934e8c0c0851a123627, type: 3}
+  - MergeableId: 7
+    MergeablePrefab: {fileID: 8582196294402573312, guid: 1a25f596d18d5554ea478e9856daca76, type: 3}
